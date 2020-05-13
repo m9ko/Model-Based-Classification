@@ -1,0 +1,18 @@
+Package: mbc
+Type: Package
+Title: Model-Based Classification
+Version: 0.1.0
+Maintainer: Michelle Ko <m9ko@uwaterloo.ca>
+Author: Michelle Ko, Laurie Liu
+Contributor: Ruitao Lai, Xiaoxiao Fang
+Description: Classification method using Gibbs sampler with a hierarchical Bayesian clustering model.
+License: GPL-3
+Imports: 
+    stats,
+    mniw, 
+    Matrix
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0
+Suggests: 
+    testthat
